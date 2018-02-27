@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+    font-family: 'Titillium';
+}
+
+.container {
+    padding: 40px;
+    max-width: 600px;
+    height: 750px;
+    margin: 40px auto;
+    border-radius: 0px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 36px;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    color: black;
+}
+
+p {
+    font-family: 'Times New Roman', sans-serif;
+    color: black;
+    margin: 0;
+}
+
+
+hr {
+
+    margin-bottom: 25px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 570px;
+    padding: 12px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: solid;
+    border-radius: 10px;
+
+}
+
+.signupbtn {
+    padding: 15px;
+    width: 300px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 4px rgba(19, 35, 47, 0.3);
+    margin-left: 25%;
+    display: inline-block;
+}
+
+.signupbtn:hover {
+    /*    opacity: 1;*/
+    border: 2px solid gray;
+    background-color: gold;
+}
+

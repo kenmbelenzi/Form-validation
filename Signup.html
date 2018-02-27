@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIGNUP FORM</title>
+    <link rel="stylesheet" href="css/Signup.css">
+</head>
+
+<body>
+
+<form action="/" method="post">
+    <div class="container">
+        <h1>SIGN UP</h1>
+        <h3><b>Please Fill in the Form To Sign Up</b></h3>
+        <hr>
+
+
+        <input type="text" class="fname" id="fname" placeholder="First Name" required>
+        <p class="f_Name"></p>
+        <input type="text" class="lname" id="lname" placeholder="Last Name" required>
+        <p class="l_Name"></p>
+        <input type="text" class="gender" id="gender" placeholder="Gender" required>
+        <p class="Gender"></p>
+        <input type="text" class="age" id="age" placeholder="Age" onkeypress="validate(event)" required>
+        <p class="Age"></p>
+        <input type="email" class="email" id="email" placeholder="Email Address" required>
+        <p class="Email"></p>
+        <input type="password" class="password" id="password" placeholder="Password" required>
+        <p class="Password"></p>
+        <input type="password" class="confirmPassword" id="confirmPassword" placeholder="Retype Password" required>
+        <p class="confirm_Password"></p>
+        <input type="checkbox" checked="cheked" name="remember" style="margin-bottom: 15px">By cheking this box you have read and agreed
+        to our terms and conditions
+        <br><br>
+
+
+        <button type="submit" class="signupbtn" onclick="validityCheck();">SIGN UP</button>
+
+    </div>
+
+</form>
+
+</body>
+</html>
+<script src="js/signup.js"></script>
